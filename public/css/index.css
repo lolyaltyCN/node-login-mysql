@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 1024px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+
+nav {
+    width: 1024px;
+    margin: 10px auto 0;
+}
+
+nav a {
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px;
+    color: #f65;
+}
+
+nav a:hover {
+    color: #66f;
+}
+
+meter {
+    margin: 5PX auto 0;
+    display: block;
+}
+
+form {
+    width: 1024px;
+    margin: 10px auto;
+    padding-bottom: 5px;
+}
+
+label {
+    width: 100%;
+    padding: 5px;
+    display: block;
+}
+#username,#password{
+    width: 50%;
+    height: 30px;
+    outline-color: #f65;
+    margin-left: 5px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background: #03bbcc;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    float: right;
+    margin-right: 10px;
+    color: #eee;
+    letter-spacing: 2px;
+}
+#male{
+    margin-left: 5px;
+    vertical-align: middle;
+}
