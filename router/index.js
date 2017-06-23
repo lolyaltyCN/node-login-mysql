@@ -13,6 +13,7 @@ router.get('/login', function(req, res) {
 
 router.post('/loginhandle', function(req, res) {
     var data = req.body;
+
    // var sql = "insert into test.user ('id','username','password') values('null','"+data.username+"','"+data.password+"');";
       var sql = "INSERT INTO `user` ('id', 'username', 'password') VALUES (NULL, '"+data.username+"', '"+data.password+"');";
     mysqlCnn.mysqlCnn(sql,function (err,result) {
@@ -20,6 +21,7 @@ router.post('/loginhandle', function(req, res) {
         res.end(JSON.stringify(result));
     });
     // res.end(JSON.stringify(result));
+
 
 
 
